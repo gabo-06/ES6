@@ -81,32 +81,32 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modulos_mensajeAlerta__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modulos/mensajeAlerta */ \"./src/modulos/mensajeAlerta.js\");\n\nObject(_modulos_mensajeAlerta__WEBPACK_IMPORTED_MODULE_0__[\"mensajeAlerta\"])('Hola carlos');\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modulos_clasePersona__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modulos/clasePersona */ \"./src/modulos/clasePersona.js\");\n\r\n\r\nconst objPersona = new _modulos_clasePersona__WEBPACK_IMPORTED_MODULE_0__[\"Persona\"]('Gabriel Angel Gil Fernandez', 30);\r\n\r\n// debugger\r\n// console.log(objPersona.mostrarInfo());\r\nconsole.log('aaaaaaaaaaaaaaaaa');\r\n\r\n \r\n \n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/modulos/mensajeAlerta.js":
-/*!**************************************!*\
-  !*** ./src/modulos/mensajeAlerta.js ***!
-  \**************************************/
-/*! exports provided: mensajeAlerta */
+/***/ "./src/modulos/clasePersona.js":
+/*!*************************************!*\
+  !*** ./src/modulos/clasePersona.js ***!
+  \*************************************/
+/*! exports provided: Persona */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"mensajeAlerta\", function() { return mensajeAlerta; });\nvar mensajeAlerta = function mensajeAlerta(mensaje) {\n  alert(mensaje);\n};\n\n\n\n//# sourceURL=webpack:///./src/modulos/mensajeAlerta.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Persona\", function() { return Persona; });\nclass Persona\r\n{\r\n    constructor(nombre, edad)\r\n    {\r\n        this.nombre = nombre;\r\n        this.edad = edad;\r\n    }\r\n\r\n    mostrarInfo()\r\n    {\r\n        // document.write(`${this.nombre} tiene ${this.edad} años`);\r\n        return `${this.nombre} tiene ${this.edad} años`;\r\n    }    \r\n}\n\n//# sourceURL=webpack:///./src/modulos/clasePersona.js?");
 
 /***/ })
 

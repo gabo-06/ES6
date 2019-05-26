@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modulos_clasePersona__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modulos/clasePersona */ \"./src/modulos/clasePersona.js\");\n\r\n\r\nconst objPersona = new _modulos_clasePersona__WEBPACK_IMPORTED_MODULE_0__[\"Persona\"]('Gabriel Angel Gil Fernandez', 32);\r\n\r\n// debugger\r\nconsole.log(objPersona.mostrarInfo());\r\n// console.log('hola gabriel, estas en index');\r\n\r\n \r\n \n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modulos_clasePersona__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modulos/clasePersona */ \"./src/modulos/clasePersona.js\");\n\nvar objPersona = new _modulos_clasePersona__WEBPACK_IMPORTED_MODULE_0__[\"Persona\"]('Gabriel Angel Gil Fernandez', 32); // debugger\n\nconsole.log(objPersona.mostrarInfo()); // console.log('hola gabriel, estas en index');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Persona\", function() { return Persona; });\nclass Persona\r\n{\r\n    constructor(nombre, edad)\r\n    {\r\n        this.nombre = nombre;\r\n        this.edad = edad;\r\n    }\r\n\r\n    mostrarInfo()\r\n    {\r\n        // document.write(`${this.nombre} tiene ${this.edad} años`);\r\n        return `${this.nombre} ama a su mujer`;\r\n    }    \r\n}\n\n//# sourceURL=webpack:///./src/modulos/clasePersona.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Persona\", function() { return Persona; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar Persona =\n/*#__PURE__*/\nfunction () {\n  function Persona(nombre, edad) {\n    _classCallCheck(this, Persona);\n\n    this.nombre = nombre;\n    this.edad = edad;\n  }\n\n  _createClass(Persona, [{\n    key: \"mostrarInfo\",\n    value: function mostrarInfo() {\n      // document.write(`${this.nombre} tiene ${this.edad} años`);\n      return \"\".concat(this.nombre, \" ama a su mujer\");\n    }\n  }]);\n\n  return Persona;\n}();\n\n//# sourceURL=webpack:///./src/modulos/clasePersona.js?");
 
 /***/ })
 

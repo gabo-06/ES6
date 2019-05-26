@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// import { Persona } from './modulos/clasePersona';\r\n\r\n// const objPersona = new Persona('Gabriel Angel Gil Fernandez', 30);\r\n// objPersona.mostrarInfo();  \r\n\r\n\r\n \r\nconsole.log('about');\n\n//# sourceURL=webpack:///./src/about.js?");
+eval("// import { Persona } from './modulos/clasePersona';\n// const objPersona = new Persona('Gabriel Angel Gil Fernandez', 30);\n// objPersona.mostrarInfo();  \nconsole.log('about');\n\n//# sourceURL=webpack:///./src/about.js?");
 
 /***/ })
 

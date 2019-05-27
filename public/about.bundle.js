@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// import { Persona } from './modulos/clasePersona';\n// const objPersona = new Persona('Gabriel Angel Gil Fernandez', 30);\n// objPersona.mostrarInfo();  \nconsole.log('about');\n\n//# sourceURL=webpack:///./src/about.js?");
+eval("// import { Persona } from './modulos/clasePersona';\n// const objPersona = new Persona('Gabriel Angel Gil Fernandez', 30);\n// objPersona.mostrarInfo();  \nconsole.log('about');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYWJvdXQuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYWJvdXQuanM/ZDA1NiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBpbXBvcnQgeyBQZXJzb25hIH0gZnJvbSAnLi9tb2R1bG9zL2NsYXNlUGVyc29uYSc7XG4vLyBjb25zdCBvYmpQZXJzb25hID0gbmV3IFBlcnNvbmEoJ0dhYnJpZWwgQW5nZWwgR2lsIEZlcm5hbmRleicsIDMwKTtcbi8vIG9ialBlcnNvbmEubW9zdHJhckluZm8oKTsgIFxuY29uc29sZS5sb2coJ2Fib3V0Jyk7Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/about.js\n");
 
 /***/ })
 

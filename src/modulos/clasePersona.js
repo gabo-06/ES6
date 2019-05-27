@@ -1,14 +1,20 @@
 export class Persona
 {
-    constructor(nombre, edad)
+    constructor(nombres, apellidos, edad)
     {
-        this.nombre = nombre;
+        debugger
+        this.nombres = nombres;
+        this.apellidos = apellidos;
         this.edad = edad;
+    }
+
+    obtenerNombreCompleto()
+    {
+        return `${this.nombres} ${this.apellidos}`;
     }
 
     mostrarInfo()
     {
-        // document.write(`${this.nombre} tiene ${this.edad} años`);
-        return `${this.nombre} ama a su mujer`;
+        return `${this.nombres} ${this.apellidos} ama a su mujer`;
     }    
 }
